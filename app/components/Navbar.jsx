@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import LogOutOrLogin from "./LogOutOrLogin";
 
 const Navbar = () => {
   return (
@@ -17,7 +18,9 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div>Logout/Login</div>
+        <div>
+          <LogOutOrLogin />
+        </div>
       </div>
     </nav>
   );
