@@ -14,7 +14,10 @@ const LogOutOrLogin = async () => {
     return (
       <div>
         You are logged in as {data.user.email}
-        <LogoutButton />
+        <span className="gap-3">
+          {" "}
+          <LogoutButton />
+        </span>
       </div>
     );
   }
